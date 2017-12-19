@@ -1,0 +1,14 @@
+{
+  "name": "electron-test",
+  "version": "0.0.1",
+  "description": "Test du framework electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "HerrCrazi",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "github:johannesjo/electron-prebuilt"
+  }
+}
