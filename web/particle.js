@@ -31,6 +31,8 @@ $(window).on('load', () => {
   var W = canvas.width = window.innerWidth,
   H = canvas.height = window.innerHeight;
 
+  /*offsetX = W/2;
+  offsetY = H/2;*/
 
   /*  Physics  */
 
@@ -180,7 +182,7 @@ $(window).on('load', () => {
 
     ctx.fillStyle = "rgba(0,0,0,1)";
     ctx.fillRect(0,0,W,H);
-    
+
     //Draw the frame indicator
     if ( debug )
     {
